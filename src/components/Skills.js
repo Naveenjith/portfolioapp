@@ -1,3 +1,4 @@
+import React from "react";
 import css from "../assets/img/logo-css-3-2048.png";
 import js from "../assets/img/JavaScript-Emblem.png";
 import html from "../assets/img/html-logo.png";
