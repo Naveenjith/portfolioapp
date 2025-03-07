@@ -1,13 +1,14 @@
 import React from "react";
-import css from "../assets/img/logo-css-3-2048.png";
-import js from "../assets/img/JavaScript-Emblem.png";
-import html from "../assets/img/html-logo.png";
-import jq from "../assets/img/jquery-icon-png-18.jpg";
+import css from "../assets/img/css.webp";
+import js from "../assets/img/js.png";
+import html from "../assets/img/html.webp";
+import jq from "../assets/img/jq.png";
 import python from "../assets/img/imgpython.webp";
-import django from "../assets/img/django-logo.png";
+import django from "../assets/img/django-python-logo.png";
 import react from "../assets/img/logo-react-icon.png";
-import boot from "../assets/img/boot.jpeg";
+import boot from "../assets/img/bootstrap-removebg-preview.png";
 import rest from "../assets/img/rest.png";
+import mysql from "../assets/img/mysql.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 //import arrow1 from "../assets/img/arrow1.svg";
@@ -88,6 +89,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={rest} alt="Image" />
                   <h5>RestAPI</h5>
+                </div>
+                <div className="item">
+                  <img src={mysql} alt="Image" />
+                  <h5>Mysql</h5>
                 </div>
               </Carousel>
             </div>
