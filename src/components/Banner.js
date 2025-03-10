@@ -53,7 +53,7 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Naveenjith`} <span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
                   <p>Highly motivated and detail-oriented web developer with a passion for creating seamless digital experiences. Dedicated to staying current with emerging technologies, I aim to contribute my front-end and back-end development expertise to a dynamic team.</p>
-                  <a href="/NaveenjithCV.pdf" download="NaveenjithCV.pdf" style={{ textDecoration: "none" }}>
+                  <a href="/NaveenjithprCV.pdf" download="NaveenjithprCV.pdf" style={{ textDecoration: "none" }}>
                     <button>
                       Download Resume <ArrowRightCircle size={25} />
                     </button>
